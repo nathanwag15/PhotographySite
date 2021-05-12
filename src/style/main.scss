@@ -1,0 +1,67 @@
+html {
+    font-size: 62.5%; // 1rem is 10px
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'montserrat';
+}
+
+body {
+    overflow-x: hidden;
+    font-weight: normal;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+    display: grid;
+    justify-items: center;
+}
+
+.top-bar-wrapper {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    .accent-bar-top{
+        background-color:black;
+        height: 5px;
+    }
+
+    .top-bar-content{
+        display: flex;
+        width: 90%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.background{
+    background-image: url(../../static/assets/images/LoganCanyon.jpg);
+    background-size: cover;
+    height: calc(100vh - 50px);
+    width: 100vw;
+}
+
+.menu-wrapper{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
