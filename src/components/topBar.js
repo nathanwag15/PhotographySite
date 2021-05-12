@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Menu from './menu';
+import axios from "axios";
+import { withRouter } from "react-router";
+import { NavLink } from "react-router-dom";
 
 export default class TopBar extends Component {
     render() {
