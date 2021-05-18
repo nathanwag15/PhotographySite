@@ -89,29 +89,27 @@ a {
 
     .block-wrapper{
         display: grid;
-        width: 70%;
-        height: 500px;
-        grid-template-columns: 2fr 1fr;
-        grid-gap: 10px;
+        width: 65%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
 
         .left-column-wrapper{
-            height: 100%;
+            height: auto;
             width: 100%;
             display: grid;
-            grid-template-rows: 1fr 1fr;
-            grid-gap: 10px;
+            grid-gap: 15px;
 
             img{
-                height: 100%;
                 width: 100%;
+                height: auto;
             }
         }
 
         .right-column-wrapper{
-            img{
-                height: 100%;
-                width: 100%;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
             }
         }   
     }
-}
