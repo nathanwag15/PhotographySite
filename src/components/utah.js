@@ -8,7 +8,7 @@ import utah4 from '../../static/assets/images/20210506_175907.jpg';
 export default class Utah extends Component {
     render() {
         return (
-          <div className='utah-gallery-wrapper'>
+          <div className="gallery-wrapper">
               <div className="block-wrapper">
                   <div className="left-column-wrapper">
                         <img src={utah1} />
